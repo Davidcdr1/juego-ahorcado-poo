@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "oeste";
+  src: url("./assets/REWARD PERSONAL USE.ttf");
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.contenedorsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contenedorsection {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.contenedor {
+  border: 0.2rem solid rgba(100, 3, 3, 0.911);
+  width: 60rem;
+  height: 75rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./images/oeste2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "oeste";
+  margin-bottom: 4rem;
+  margin-top: 7rem;
+  color: rgba(100, 3, 3, 0.911);
+}
+
+.categoriascont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.categorias {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+  width: 20rem;
+  height: auto;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 3px inset #96734a;
+  border-radius: 7px;
+  text-align: center;
+  font-family: "oeste";
+}
+
+.contletraspadre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contletras {
+  width: 26rem;
+  height: 10rem;
+  font-size: 1.5rem;
+  color: #FFF;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0.3 inset #96734a;
+  border-radius: 1rem;
+  padding-top: 3rem;
+  letter-spacing: 7px;
+  margin-right: 5rem;
+}
+
+.dibujohangman {
+  width: 13rem;
+  height: 20rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0.3rem solid #96734a;
+  border-radius: 0.6rem;
+  background-image: url(./images/ahorcado7.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contletfalladas {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -19rem;
+}
+
+.letfalladas {
+  width: 26rem;
+  height: 2.5rem;
+  color: #900;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 26px;
+  border: 5px solid #996633;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: -6rem;
+}
+
+#teclado {
+  text-align: center;
+  margin-left: -18rem;
+  margin-top: 1rem;
+}
+
+#teclado .key {
+  border: 3px outset #96734a;
+  color: #FFF;
+  font-size: 26px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 2px;
+  text-align: center;
+  text-indent: -1px;
+  border-radius: 8px;
+}
+
+.menuLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.menuLink a {
+  text-decoration: none;
+  border: 1px solid black;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 1%;
+}
+
+.contenedor-inicio-padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10rem;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contenedor-inicio-padre {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.contenedor-inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-inicio-border {
+  border: 0.2rem solid rgba(100, 3, 3, 0.911);
+  width: 60rem;
+  height: 40rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./images/fondomadera.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titulo-inicio {
+  font-family: "oeste";
+  font-size: 4.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #900;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 6px 8px black;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form input {
+  width: 20%;
+}
+
+.text-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

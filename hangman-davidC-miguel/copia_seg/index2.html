@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+  </head>
+  <body>
+    <section class="contenedor-inicio-padre">
+      <div class="contenedor-inicio">
+        <div class="contenedor-inicio-border">
+          <div class="titulo-inicio">
+            Welcome to the Hangman's game
+          </div>
+          <div>
+            <form method="get" action="index.html" class="form">
+              <label for="getName" class="text-name">PLEASE ENTER YOUR NAME</label>
+              <input type="text" name="getName" id="getName" required>
+              <label for="categories" class="text-name">CHOOSE A CATEGORY</label>
+              <select name="categories" id="categories" required>
+                <option value="celebrities">Celebrities</option>
+                <option value="movies">Movies</option>
+                <option value="songs">Songs</option>
+              </select>
+              <label for="difficulty" class="text-name">CHOOSE A DIFFICULTY LEVEL</label>
+              <select name="difficulty" id="difficulty" required>
+                <option value="easy">Easy - 10 LIFES</option>
+                <option value="medium">Medium - 6 LIFES</option>
+                <option value="hard">Hard - 3 LIFES</option>
+              </select>
+              <input type="submit" value="GO!" class="text-name">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
